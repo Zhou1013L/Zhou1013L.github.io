@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css" />
+	<link rel="stylesheet" type="text/css" href="css/icofont.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom-menu.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+</head>
+<body>
+<div class="thetop"></div>
+<div class='backToTop'>
+	<a href="#" class='scroll'>
+		<span>T</span>
+		<span>O</span>
+		<span>P</span>
+		<span class="go-up">
+					<i class="icofont icofont-long-arrow-up"></i>
+				</span>
+	</a>
+</div>
+<header id="header-section" class="header-section w100dt navbar-fixed">
+
+	<nav class="nav-extended main-nav">
+		<div class="container">
+			<div class="row">
+				<div class="nav-wrapper w100dt">
+					<div class="logo left">
+						<a href="index.html" class="brand-logo">
+							<img src="img/logo.png" alt="brand-logo">
+						</a>
+					</div>
+					<div>
+						<a href="#" data-activates="mobile-demo" class="button-collapse">
+							<i class="icofont icofont-navigation-menu"></i>
+						</a>
+						<ul id="nav-mobile" class="main-menu center-align hide-on-med-and-down">
+							<li class="active"><a href="index.html">主页 </a></li>
+							<li><a href="cateogry.html">分类 </a></li>
+							<li><a href="single-blog.html">博客</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li class="snavlogo center-align"><img src="img/logo.png" alt="logo"></li>
+							<li class="active"><a href="index.html">主页</a></li>
+							<li><a href="cateogry.html">分类</a></li>
+							<li><a href="single-blog.html">博客</a></li>
+						</ul>
+					</div>
+					<a href="#" class="search-trigger right">
+						<i class="icofont icofont-search"></i>
+					</a>
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn">&times;</a>
+						<div class="overlay-content">
+							<form>
+								<input type="text" name="search" placeholder="Search...">
+								<br>
+								<button class="waves-effect waves-light" type="submit" name="action">搜索</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+		<section id="breadcrumb-section" class="breadcrumb-section w100dt mb-30">
+			<div class="container">
+
+				<nav class="breadcrumb-nav w100dt">
+					<div class="page-name hide-on-small-only left">
+						<h4>博客</h4>
+					</div>
+					<div class="nav-wrapper right">
+						<a href="index.html" class="breadcrumb">主页</a>
+						<a href="single-blog.html" class="breadcrumb active">博客</a>
+					</div>
+				</nav>
+			</div>
+
+		</section>
+
+		<section id="single-blog-section" class="single-blog-section w100dt mb-50">
+			<div class="container">
+				<div class="row">
+
+					<div class="col m8 s12">
+
+						<div class="blogs mb-30">
+							<div class="card">
+								<div class="card-image">
+									<img src="img/spring.png" alt="Image">
+								</div>
+
+								<div class="card-content w100dt">
+									<h5>(1)核心层</h5>
+										<ul>
+											<li>
+												Core Container:核心容器，这个模块是Spring最核心的模块，其他的都需要依赖该模块
+											</li>
+										</ul>
+									<br>
+									<h5>(2)AOP层</h5>
+									<ul>
+										<li>
+											AOP:面向切面编程，它依赖核心层容器，目的是==在不改变原有代码的前提下对其进行功能增强==
+											Aspects:AOP是思想,Aspects是对AOP思想的具体实现										</li>
+									</ul>
+									<br>
+									<h5>(3)数据层</h5>
+									<ul>
+										<li>
+											Data Access:数据访问，Spring全家桶中有对数据访问的具体实现技术
+											Data Integration:数据集成，Spring支持整合其他的数据层解决方案，比如Mybatis
+											Transactions:事务，Spring中事务管理是Spring AOP的一个具体实现，也是后期学习的重点内容
+										</li>
+									</ul>
+									<br>
+									<h5>(4)Web层</h5>
+									<ul>
+										<li>
+											将在SpringMVC框架具体学习
+										</li>
+									</ul>
+									<br>
+									<h5>(5)Test层</h5>
+									<ul>
+										<li>
+											Spring主要整合了Junit来完成单元测试和集成测试
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col s12 m4 l4">
+
+						<div class="sidebar-testimonial mb-30">
+							<div class="sidebar-title center-align">
+								<h2>关于团队</h2>
+							</div>
+
+							<div class="carousel carousel-slider center" data-indicators="true">
+								<div class="carousel-item">
+									<div class="item-img">
+										<span>Z</span>
+									</div>
+									<h2>周磊</h2>
+									<br>
+									<small></small>
+									<p>
+										组长
+									</p>
+								</div>
+								<div class="carousel-item">
+									<div class="item-img">
+										<span>G</span>
+									</div>
+									<h2>顾承露</h2>
+									<br>
+									<small></small>
+									<p>
+										成员
+									</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+			</div>
+
+		</section>
+
+		<<footer id="footer-section" class="footer-section w100dt">
+	<div class="container">
+		<div class="footer-logo w100dt center-align mb-30">
+			<a href="#" class="brand-logo">
+				<img src="img/logo.png" alt="brand-logo">
+			</a>
+		</div>
+		<ul class="footer-social-links w100dt center-align mb-30">
+			<li>学习推荐</li>
+			<li><a href="https://github.com/" class="GitHub">GitHub</a></li>
+			<li><a href="https://gitee.com/" class="Gitee">Gitee</a></li>
+			<li><a href="https://www.csdn.net/" class="CSDN">CSDN</a></li>
+			<li><a href="https://juejin.cn/" class="juejin">掘金</a></li>
+			<li><a href="https://www.bilibili.com/" class="bilibili">哔哩哔哩</a></li>
+			<li><a href="http://gitlab.code-nav.cn/" class="GitLab">GitLab</a></li>
+		</ul>
+		<p class="center-align">
+			版权所有 © 保留所有权利。
+		</p>
+	</div>
+</footer>
+
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript"></script>
+
+
+	</body>
+
+</html>
